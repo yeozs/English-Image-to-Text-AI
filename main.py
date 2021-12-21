@@ -8,7 +8,7 @@ import pytesseract
 
 
 
-path = "/home/runner/.apt/usr/share/tesseract-ocr/4.00/tessdata/osd.traineddata"
+path = "/usr/local/share/tessdata/osd.traineddata"
 if os.path.exists(path):
   print("Already installed!")
 else:
@@ -18,7 +18,7 @@ else:
 
 pytesseract.pytesseract.tesseract_cmd = "tesseract" #put tesseract executable in your path
 
-os.environ["TESSDATA_PREFIX"] = "/home/runner/.apt/usr/share/tesseract-ocr/4.00/tessdata/" #go to environment of tesseract called TESSDATA_PREFIX. Get tessdata as environment
+os.environ["TESSDATA_PREFIX"] = "/usr/local/share/tessdata/" #go to environment of tesseract called TESSDATA_PREFIX. Get tessdata as environment
 
 # List of available languages
 print(pytesseract.get_languages(config=''))
@@ -40,4 +40,7 @@ print(text)
 #print(pytesseract.image_to_string(Image.open('test-european.jpg'), lang='fra'))
 
 #in case of corruption: https://replit.com/talk/ask/Pytesseract-Auto-Shell-Install-Package-Issue/140049
+
+#Install Brew
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
