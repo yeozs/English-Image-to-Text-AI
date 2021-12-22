@@ -5,7 +5,8 @@ Reason for Creation: Wanted a fast method to convert pdf and whatsapp/telegram s
 
 Managed to find some help from Replit Community to use pytesseract. https://replit.com/talk/ask/Pytesseract-Auto-Shell-Install-Package-Issue/140049
 Problem was the code didn't write the converted text into a docx file. 
-My code helps to alleviate that problem.
+My code helps to alleviate that problem. 
+Do note to save a copy of test.docx separately before converting another image as code purposefully wipes clean test.docx during each run of main.py!
 
 
 How to Use:
