@@ -17,7 +17,7 @@ How to Use:
 6. run: sudo mv -v eng.traineddata /usr/local/share/tessdata/
 
 How to convert image to word doc:
-1. Place image in local folder "English-Image-to-Text-AI-main"
+1. Place image in local folder "English-Image-to-Text-AI-main". Rename the file as "test4.png"
 2. Open terminal and "cd" to the local folder "English-Image-to-Text-AI-main"
 3. run: python main.py
 4. Open test.docx to find your converted image in word document.
