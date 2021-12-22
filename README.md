@@ -10,7 +10,7 @@ My code helps to alleviate that problem.
 
 How to Use:
 1. Download all the documents.
-2. Open terminal and "cd" to the local folder "English-image-to-text-AI"
+2. Open terminal and "cd" to the local folder "English-Image-to-Text-AI-main"
 3. Install the necessary python packages. (pip install PIL, pip install pytesseract)
 4. Install Brew. /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 5. brew install tesseract
