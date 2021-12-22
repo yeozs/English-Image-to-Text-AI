@@ -10,8 +10,8 @@ My code helps to alleviate that problem.
 
 How to Use:
 1. Download all the documents.
-2. Install the necessary python packages (pip install PIL, pip install pytesseract)
-3. Install Brew /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+2. Install the necessary python packages. (pip install PIL, pip install pytesseract)
+3. Install Brew. /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 4. brew install tesseract
 5. sudo mv -v eng.traineddata /usr/local/share/tessdata/
 
